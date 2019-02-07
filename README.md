@@ -1,2 +1,2 @@
-#################################This folder is for shell script######################
+#################################This master branch is for shell script######################
 
