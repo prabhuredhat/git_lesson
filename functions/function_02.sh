@@ -7,6 +7,5 @@ do
 	 echo $f:; echo $(ls -l $f | wc -l)
 done
 }
-file /var /etc /usr/bin
-file /home/lisa
+file $*
 exit 0

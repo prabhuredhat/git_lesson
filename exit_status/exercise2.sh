@@ -5,6 +5,6 @@ ping -c 1 "$HOST" >& /dev/null
 if [[ "$?" -ne "0" ]]
 then
 	echo "network is not reachable"
-	exit 1
+	exit 4
 fi
 exit 0
